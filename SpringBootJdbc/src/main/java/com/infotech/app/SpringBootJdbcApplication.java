@@ -20,10 +20,10 @@ public class SpringBootJdbcApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		//cerateEmployee();
+		cerateEmployee();
 		//getEmployeeById();
 		//employeeDAO.updateEmployeeEmailById(3, "kishan.cs2111@gamil.com");
-		employeeDAO.deleteEmployeeById(3);
+		//employeeDAO.deleteEmployeeById(3);
 	}
 
 	private void getEmployeeById() {
